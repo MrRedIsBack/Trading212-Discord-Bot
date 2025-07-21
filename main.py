@@ -9,7 +9,7 @@ from discord.ext import commands
 
 import itertools
 
-load_dotenv(dotenv_path="misc/trading212/keys.env")
+load_dotenv(dotenv_path="keys.env")
 
 Trading212_APIKEY = str(os.getenv("Trading212_APIKEY"))
 user_agent = str(os.getenv("user_agent"))
